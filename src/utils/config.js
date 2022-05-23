@@ -2,7 +2,7 @@ const CONTRACT_NAME = "mycontract.testjianaccount.testnet";
 
 function environment(env) {
   switch (env) {
-    case "mainnet":
+    case "mainnet": // line 5
       return {
         networkId: "mainnet",
         nodeUrl: "https://rpc.mainnet.near.org",
@@ -11,7 +11,7 @@ function environment(env) {
         helperUrl: "https://helper.mainnet.near.org",
         explorerUrl: "https://explorer.mainnet.near.org",
       };
-    case "testnet":
+    case "testnet": // line 14
       return {
         networkId: "testnet",
         nodeUrl: "https://rpc.testnet.near.org",
